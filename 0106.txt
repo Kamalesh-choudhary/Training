@@ -1,0 +1,54 @@
+﻿## This IS SUPPOSED TO BE DONE LATER
+
+mysql(servermworkbench,router,examples and samples)
+vs code
+git
+git desktop
+mongodb (server, compass, command line tools, shell)
+** Mongodb atlas (cloud database)
+
+
+Theory ( RDBMS, sql,sub languages data types , libraries)
+ORDBMS
+Basic queries
+*** Tricky queries(Important for placement/interviews)
+*** Intricacies / hidden/important topics(groupby,joins)
+pqsql(stored procedures, functions, indexes, views , cursors, triggers)
+Implement a project
+MongoDB as No SQL (not only sql)
+
+
+1. Create a folder named “software”
+2. create one folder each for every software/app you download
+3. later from here , double click the installer file/.msi file/setup and install
+NOTE:
+	Some apps where installed like (Vs code , git etc … ) after they are automatically installd , the 	path of the apps of the software are automatically added to the environment variables . Some are 	not.
+
+Steps to create personal access token:
+1. Click on profile icon (top right corner)
+2. then click on settings
+3. then in a new window go to bottom and click on the developer settings
+4. then click on the personal access token
+5. Then on the tokens(classic)
+6. Now click on the generate new token
+7. Now click on the generate new token (classic)
+8. Then in the Note section add the Note you want to add eg :” This PAT I created for learning “ .
+9. Expiry: 30 days / no expiry
+10. Then select the first score REPO
+11. Then click on the generate token at the end of the page
+12. Then copy the PAT
+13. Then save it at a location only accessible to you like mailing to yourself
+14. That’s it the PAT has been created
+
+Git configuration:
+
+$> git config –global user.name “git-username”
+$> git config –global user.email “youremail”
+
+$> git clone https://github.com/Kamalesh-choudhary/mtd_db_jun26.git
+$> git push file1.sql
+There is a situation where I need to authenticate inorder to push the changes to the repository and for it it will ask me the user-name and password to check if I am the owner and I have the ability to push into the repository. But eg if we want to push 10 times then entering username and password everytime could be very frustating hence we use the PAT token that we have created here. It will help us here in the saving of time of entering the username and password for many times
+
+→ The command for this is 
+$> git clone https://PAT_TOKEN@github.com/Kamalesh-choudhary/mtd_db_jun26.git
+
