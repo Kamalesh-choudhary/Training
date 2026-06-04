@@ -242,4 +242,29 @@ Entity: Collections table
     date:
     rating.(optional)
 
+----------------------------------------------------------------------------------------------------------------------------------------------
 
+1. Print the names of employees working in the project (Renewable energy).
+2. Print the employees who are not working on the project (Solar Energy).
+3. Print the employees who are not working on any type of project.
+4. Print the project Names which are not been assigned with any Employee.
+5. Print the employees who are assigned the projects and also the projects on which the work has not been started.
+6. 
+
+---------------------------------------------------------------------------------
+
+#steps in the Gaming club database:
+
+insert into transaction;
+->update balance of members;
+->add new_games in games (query);
+->collections table gets it data automatiaclly from the system. (ie for every recharge made it adds or updates the collections on that day ** use trigger for the collections table)
+
+PLSQL: 
+->Stored procedure 
+functioin-> to implement a small logic
+Trigger -> code that should automatically run when there is a change in the database 
+View -> Stored query (helps in retyping long long queries back to back) returns a Resultset
+Index
+
+mongodb server, compass, shell, commandline tools
