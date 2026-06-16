@@ -1,0 +1,2 @@
+### Training
+This repository contains all the notes and code used for training purposes. The training materials cover various topics and are designed to help learners understand the concepts and apply them effectively.
