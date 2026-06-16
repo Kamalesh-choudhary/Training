@@ -113,7 +113,6 @@ def search_employee():
     except Exception as e:
         print('Search failed', e)
 
-
 def list_all_employees():
     query = 'select * from employees;'
     try:
@@ -134,7 +133,7 @@ def list_all_employees():
         dbc2.db_disconnect(connection)
     except Exception as e:
         print('Failed to list employees', e)
-    
+
 def menu(choice):
     match choice:
         case 1:
@@ -166,3 +165,4 @@ def run_employee_app():
 create_db()
 create_table()
 run_employee_app()
+
